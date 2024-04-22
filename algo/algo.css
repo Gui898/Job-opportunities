@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --first-color: #FEFAF6;
+    --second-color: #EADBC8;
+    --third-color: #DAC0A3;
+    --forth-color: #102C57;
+
+    --font-color: #343333;
+
+    --main-font: "Krona One", sans-serif;
+    --other-font: "Montserrat", sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--first-color);
+    color: var(--font-color);
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+    background-color: var(--second-color);
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.name{
+    display: flex;
+    justify-content: start;
+}
+
+
+.name__website{
+    font-family: var(--main-font); 
+    font-size: 30px;
+}
+
+.cabecalho__links{
+    font-size: 24px;
+    font-family: var(--other-font);
+    color: var(--forth-color);
+    text-decoration: none;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.cabecalho__links:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    gap: 60px;
+    width: 615px;
+    height: auto;
+    padding: 5% 15%;
+    align-items: auto;
+    justify-content: center;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.title{
+    font-family: var(--main-font);
+    font-size: 40px;
+}
+
+.inputs__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21.5px 0;
+    gap: 16px;
+    margin: 5%;
+    position: static;
+    width: 150%;
+}
+
+.inputs{
+    margin-bottom: 35%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="checkbox"]{
+    width: 40px;
+    height: 40px;
+}
+
+.disability{
+    color: var(--font-color);
+    margin-top: 35%;
+    font-size: 28px;
+    font-family: var(--other-font);
+    font-weight: 600;
+}
+
+.redirect__opportunities{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 350px;
+    padding: 15px;
+    background-color: var(--third-color);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--other-font);
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid var(--second-color);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center ;
+    font-size: 28px;
+    background-color: var(--second-color);
+    padding: 21.5px;
+    font-family: var(--main-font);
+}
+
+/*About*/
+
+.example{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box__img__two{
+margin: 0;
+}
+
+.img__two{
+    margin-top: 50px;
+    width: 100px;
+    height: 150px;
+    width: 50%;
+}
+
+.example{
+    font-family: var(--other-font);
+    font-size: 24px;
+}
+
+/*Vagas*/
+
+.container__vacancies{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 615px;
+    height: auto;
+    padding: 5% 15%;
+    align-items: auto;
+    justify-content: center;
+}
+
+.show__jo{
+    background-color: var(--second-color);
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    margin-left: 42%;
+    padding: 2px;
+    border-radius: 16px;
+}
+
+.jobs{
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--third-color);
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.img__vacancies{
+    width: 25%;
+    height: 25%;
+    border-radius: 16px;
+}
+
+.align__requirements{
+    display: flex;
+    gap: 60px;
+}
+
+.requirements__text{
+    font-family: var(--other-font);
+    font-size: 15px;
+    color: var(--font-color);
+    font-weight: 600;
+}
+
+.requirements__text__a{
+    font-family: var(--other-font);
+    font-size: 16px;
+    color: var(--forth-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.requirements__text__a:hover{
+    text-decoration: underline;
+}
+
+.img__rodape{
+    width: 35px;
+    height: 35px;
+}
+
+.rodape__fixed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape__vacancie{
+    display: flex;
+    justify-content: center ;
+    font-size: 28px;
+    background-color: var(--second-color);
+    padding: 15px;
+    font-family: var(--main-font);
+}    

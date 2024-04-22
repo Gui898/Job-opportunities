@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="algo.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=D5l36QvQ"></script>
+    <script src="./script/algo.js"></script>
+    <title>Job opportunities</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="name">
+                <h1 class="name__website">Job opportunities</h1>
+            </div>
+            <a class="cabecalho__links" href="algo.html">Home</a>
+            <a class="cabecalho__links" href="about.html">About us</a>
+        </nav>
+    </header>
+        
+    <main class="container">
+        <section class="container__content">
+            <div class="top">
+                <h2 class="title">Select your type of disability</h2>
+                <img class="img" src="./assets/pngwing.com .png" alt=".">
+            </div>
+            <div class="inputs__container">
+                <div class="one__line">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('1')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('4')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('7')">
+            </div>
+            <div class="two__line">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('2')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('5')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('8')">
+            </div>
+            <div class="three__line">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('3')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('6')">
+                <p class="disability">Disability</p>
+                <input class="inputs" type="checkbox" onclick="toSpeak('9')">
+            </div>
+        </div>
+        <div class="but">
+            <a onclick="toSpeak('Search')" class="redirect__opportunities" href="vagas.html">Search</a>
+        </div>
+    </section> 
+</main>
+
+    <footer>
+        <p class="rodape">Developed by us</p>
+    </footer>
+</body>
+</html>
